@@ -34,6 +34,8 @@ Create configs from a yaml file
     kubectl apply -f k8s/configmap/env.yaml
     kubectl apply -f k8s/configmap/pets.yaml
     kubectl apply -f k8s/secret.yaml
+    kubectl apply -f k8s/metrics-server.yaml
+    kubectl apply -f k8s/hpa.yaml
 
 Foward Cluster IP
 
