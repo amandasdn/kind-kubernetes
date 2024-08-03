@@ -49,6 +49,9 @@ Create configs from a yaml file
     kubectl apply -f k8s/secret.yaml
     kubectl apply -f k8s/metrics-server.yaml
     kubectl apply -f k8s/hpa.yaml
+    kubectl apply -f k8s/pvc.yaml
+    kubectl apply -f k8s/statefulset.yaml
+    kubectl apply -f k8s/mysql-service-h.yaml
 
 Foward Cluster IP
 
